@@ -1,6 +1,3 @@
-
-
-
 body{
     width: 1440px;
 height: 6940px;
@@ -136,12 +133,44 @@ line-height: normal;
 
 }
 
-#buttonS{
-  color: #FF5400;
+
+.second-page{
+      display: flex;
+      justify-content: space-between;
+      margin: 30px;
+      color: rgba(19, 19, 24, 0.70);
+font-family: Mulish;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; /* 162.5% */
 }
 
+.description-button{
+  width: 174px;
+  height: 52px;
+  flex-shrink: 0;
+  border-radius: 8px;
+background: #FF5400;
+}
 
+@media screen and (max-width: 576px) {
+  nav {
+      margin: 0;
+  }
 
-@media screen {
-  
+  nav li {
+      margin-bottom: 5px;
+  }
+
+  .banner-content {
+      bottom: 10%;
+      right: 5%;
+      font-size: 24px;
+  }
+
+  .banner-description {
+      font-size: 12px;
+      line-height: 16px;
+  }
 }
